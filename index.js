@@ -38,7 +38,7 @@ function start() {
         {
             type: 'list',
             message: 'What would you like to do?',
-            choices: ['View all employees', 'Add employee', 'Update employee role', 'View all Roles', 'Add role', 'View All Departments', 'Add department', 'Quit'],
+            choices: ['View All Departments', 'Add department', 'View all Roles', 'Add role', 'View all employees', 'Add employee', 'Update employee role', 'Quit'],
             name: 'selection'
         },
     ]).then(ans => {
